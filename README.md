@@ -1,1 +1,1 @@
-# This porject is a school assignment where the goal is to make an Illinois Wesleyan theme course planner website. I was provided starter code which I will make a commit, but everything after is my own work.
+# This project is a school assignment where the goal is to make an Illinois Wesleyan theme course planner website. I was provided starter code which I will make a commit, but everything after, is my own work.
