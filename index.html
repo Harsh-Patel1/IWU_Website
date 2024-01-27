@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>IWU Course Planner</title>
+    </head>
+    <body>
+        <div class = "content-wrapper"> 
+            <div div id="logo">
+                <!-- uploads the logo and sets the width and hieght  -->
+                <img src = "iwu-logo.png" width = 100px height = 100px> </img>
+                <!-- The text for the website -->
+                <h1>Course Planner</h1>
+                <p>Add a Course: <input type = "text" id="courseInput">  </p>
+                <button onclick="addCourse()" class= "button">Add</button></p>
+                <p> Delete a Course: <input type = "text" id ="deleteInput"> </p>
+                <button style="margin-bottom: 10px;" onclick="deleteCourse()" class= "button">Delete</button>
+                <p2>  Make preq:  <input type = "text" id ="makePreqInput"> is a prereq of <input type = "text" id ="isPrereqInput"> </p2>
+                <button style="margin-top: 10px;" onclick="makePrereq()" class= "button" >Make prereq</button>
+                <a href="https://www.iwu.edu/academics/catalog.html" id="topRightButton" class="moreInfo" target="_blank">More Info</a>
+                <ul id="courseList" >
+                    <!-- Courses will be added here -->
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>

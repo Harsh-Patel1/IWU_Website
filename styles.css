@@ -1,0 +1,71 @@
+/* Author Harsh Patel 
+ * FILE: styles.css
+ */
+
+ /* Alligns the text to the cetner */
+* {
+    text-align: center;
+    font-size: 16px;
+}
+ #logo {
+    display: block;
+    margin: auto;
+    width: 10%;
+    background-color: white;
+}
+/* sets the background color */
+body {
+    background: #2e6449;
+}
+
+/* the white space where the box and teh information will go, 
+used to seperate the backround and the actual content  */
+.content-wrapper {
+    background-color: white;
+    max-width: 800px; 
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 50px; /* Space around the content inside the wrapper */
+}
+h1 {
+    /* nowrap so the text doesnt appear on two lines*/
+    white-space: nowrap; 
+    margin-inline: -50px;
+}
+p {
+    white-space: nowrap;
+    margin-inline-start: -80px;
+    text-align: center;
+}
+
+p2 {
+    white-space: nowrap;
+    padding-bottom: 100px;
+    margin-inline-start: -200px;
+}
+
+/* ul{
+    margin-inline-start: -20;
+    padding-left: -115px;
+} */
+#courseList {
+    text-align: left;   /* Aligns the text of the list items to the left */
+    margin-left: 0;     /* Ensures there's no auto margin or any other margin pushing the list to the center */
+    padding-left: 0;    /* Removes any padding that might be affecting alignment */
+    list-style-position: inside;
+
+}
+
+.moreInfo {
+    position: absolute;  /* or 'fixed' if you want it to stay at the top right even when scrolling */
+    bottom: 10px;           /* distance from the top edge */
+    right: 10px;         /* distance from the right edge */
+   font-size: 24px;
+}
+/* resource: https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/#hover */
+.button:hover {
+    background-color: #2e6449; /* A slightly different green for when the mouse hovers over the button. */
+}
+
+ 
